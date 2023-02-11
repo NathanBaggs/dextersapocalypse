@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  color: beige;
+}
+html {
+  font-size: 16px;
+}
+section {
+  padding:25px;
+}
+body {
+  font-family: 'Quicksand';
+  text-align: center;
+  background-color: black;
+
+}
+p {
+  font-size: 1rem;
+  max-width: 100%;
+  text-align: left;
+}
+h1 {
+  color: white;
+  text-align: center;
+font-size: 2.2rem;
+font-weight: bolder;
+}
+header {
+  position:sticky;
+  top:0;
+  width:100%;
+  font-family: Quicksand;
+  color: white;
+  text-shadow: 3.5px 2px 2px grey;
+ font-size: 58px;
+ font-weight:bold;
+ text-align: center;
+ margin-bottom: 22px;
+ background-color: black;
+}
+#cover {
+  width:100%;
+  margin-top: -10px;
+}
+a.buynow {
+  font-weight: bold;
+  padding: 15px 45px;
+  border: 2px;
+  border-style: solid;
+  background-color: lightgrey;
+  border-width: 2px;
+  border-color: #C3423F;
+  color: blue;
+  text-decoration:none;
+
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  column-gap: 1px;
+  margin-bottom: 30px;
+
+}
+.books {
+  width:100%;
+  align-content: center;
+  order: 1;
+}
+.bookstext {
+  font-size: 1rem;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  order: 2;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-top: -18px;
+  font-style: italic;
+  font-weight: bold;
+  hyphens: auto;
+}
+li {
+  display: inline;
+  padding-right: 40px;
+}
+.clear {
+  clear:both;
+}
+
+
+@media screen and (min-width: 850px) {
+  p {
+    font-size: 1rem;
+    max-width: 100%;
+    text-align: left;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  }
+  header {
+    position:sticky;
+    top:0;
+    width:100%;
+    font-family: Quicksand;
+    color: white;
+    text-shadow: 3.5px 2px 2px grey;
+   font-size: 58px;
+   font-weight:bold;
+   text-align: center;
+   margin-bottom: 22px;
+   background-color: black;
+  }
+  #cover {
+    width:100%;
+    max-width:800px;
+    margin-top: -10px;
+  }
+  a.buynow {
+    font-weight: bold;
+    padding: 15px 45px;
+    border: 2px;
+    border-style: solid;
+    background-color: lightgrey;
+    border-width: 2px;
+    border-color: #C3423F;
+    color: blue;
+    text-decoration:none;
+
+  }
+
+  .container {
+    width: 100%;
+    min-width: 175px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+    margin-bottom: 30px;
+
+  }
+  .books {
+    width:103%;
+    max-width: 500px;
+    max-height: 500px;
+    align-content: center;
+  }
+  .bookstext {
+    font-size: 16.5px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
